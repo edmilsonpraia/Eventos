@@ -13,23 +13,32 @@ window.addEventListener('scroll', () => {
   navbar.classList.toggle('scrolled', window.scrollY > 60);
 });
 
+const navClose = document.getElementById('navClose');
+const navOverlay = document.getElementById('navOverlay');
+
+function openMenu() {
+  navLinks.classList.add('open');
+  hamburger.classList.add('active');
+  navOverlay.classList.add('active');
+  document.body.classList.add('menu-open');
+}
+
+function closeMenu() {
+  navLinks.classList.remove('open');
+  hamburger.classList.remove('active');
+  navOverlay.classList.remove('active');
+  document.body.classList.remove('menu-open');
+}
+
 hamburger.addEventListener('click', () => {
-  navLinks.classList.toggle('open');
-  hamburger.classList.toggle('active');
+  navLinks.classList.contains('open') ? closeMenu() : openMenu();
 });
+
+navClose && navClose.addEventListener('click', closeMenu);
+navOverlay && navOverlay.addEventListener('click', closeMenu);
 
 document.querySelectorAll('.nav-links a').forEach(link => {
-  link.addEventListener('click', () => {
-    navLinks.classList.remove('open');
-    hamburger.classList.remove('active');
-  });
-});
-
-// Close menu when clicking outside
-document.addEventListener('click', (e) => {
-  if (!navbar.contains(e.target)) {
-    navLinks.classList.remove('open');
-  }
+  link.addEventListener('click', closeMenu);
 });
 
 // ===== SPLASH SCREEN =====
