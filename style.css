@@ -2323,16 +2323,37 @@ body.menu-open { overflow: hidden; }
     width: 100vw;
     right: 0; left: 0;
     bottom: 0;
+    top: auto;
     border-radius: 20px 20px 0 0;
     border-bottom: none;
-    max-height: 85vh;
-    max-height: 85dvh;
+    max-height: 55vh;
+    max-height: 55dvh;
   }
-  .lis-modal-inner { border-radius: 20px 20px 0 0; max-height: 85vh; max-height: 85dvh; }
+  .lis-modal-inner {
+    border-radius: 20px 20px 0 0;
+    max-height: 55vh;
+    max-height: 55dvh;
+  }
+  .lis-header { padding: 12px 16px; }
+  .lis-avatar { width: 36px; height: 36px; }
+  .lis-avatar-icon { font-size: 1rem; }
+  .lis-header-info h3 { font-size: 0.88rem; }
+  .lis-status { font-size: 0.68rem; }
+  .lis-messages {
+    max-height: 26vh;
+    max-height: 26dvh;
+    padding: 12px 14px;
+    gap: 10px;
+  }
+  .msg-bubble { max-width: 88%; font-size: 0.82rem; padding: 10px 12px; }
+  .msg-avatar { width: 26px; height: 26px; font-size: 0.65rem; }
+  .lis-quick-replies { padding: 0 0 0 34px; gap: 6px; }
+  .quick-reply { font-size: 0.7rem; padding: 4px 10px; }
+  .lis-input-row { padding: 10px 14px; gap: 8px; }
+  .lis-text-input { font-size: 0.82rem; padding: 8px 14px; }
+  .lis-voice-btn, .lis-send-btn { width: 34px; height: 34px; }
   .lis-fab { right: 16px; bottom: 16px; }
   .lis-fab-icon { width: 52px; height: 52px; font-size: 1.2rem; }
-  .lis-messages { max-height: 40vh; }
-  .msg-bubble { max-width: 88%; font-size: 0.85rem; }
 
   /* ----- SECTION HEADERS ----- */
   .section-header { margin-bottom: 40px; }
