@@ -186,6 +186,10 @@ function openLis() {
 
 function closeLis() {
   lisModal.classList.remove('open');
+  if (window.speechSynthesis) {
+    window.speechSynthesis.cancel();
+  }
+  voiceBtn.classList.remove('speaking');
 }
 
 lisFab.addEventListener('click', openLis);
