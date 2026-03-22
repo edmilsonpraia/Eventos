@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1015"/>
+      <stop offset="100%" style="stop-color:#201520"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="45%">
+      <stop offset="0%" style="stop-color:rgba(201,168,76,0.1)"/>
+      <stop offset="100%" style="stop-color:rgba(201,168,76,0)"/>
+    </radialGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(201,168,76,0.35)"/>
+      <stop offset="100%" style="stop-color:rgba(201,168,76,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#glow2)"/>
+  <!-- Frame -->
+  <rect x="60" y="60" width="680" height="480" fill="none" stroke="rgba(201,168,76,0.18)" stroke-width="1"/>
+  <rect x="60" y="60" width="680" height="3" fill="url(#glow)"/>
+  <!-- Balloons -->
+  <ellipse cx="300" cy="230" rx="38" ry="50" fill="rgba(201,168,76,0.12)" stroke="rgba(201,168,76,0.5)" stroke-width="2"/>
+  <line x1="300" y1="280" x2="295" y2="340" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+  <ellipse cx="400" cy="210" rx="42" ry="55" fill="rgba(201,168,76,0.15)" stroke="rgba(201,168,76,0.6)" stroke-width="2.5"/>
+  <line x1="400" y1="265" x2="400" y2="340" stroke="rgba(201,168,76,0.45)" stroke-width="1.5"/>
+  <ellipse cx="500" cy="235" rx="36" ry="48" fill="rgba(201,168,76,0.1)" stroke="rgba(201,168,76,0.45)" stroke-width="2"/>
+  <line x1="500" y1="283" x2="505" y2="340" stroke="rgba(201,168,76,0.4)" stroke-width="1.5"/>
+  <!-- String curls -->
+  <path d="M 295 340 Q 285 355 295 365 Q 305 375 295 385" fill="none" stroke="rgba(201,168,76,0.35)" stroke-width="1"/>
+  <path d="M 400 340 Q 390 355 400 365 Q 410 375 400 385" fill="none" stroke="rgba(201,168,76,0.35)" stroke-width="1"/>
+  <path d="M 505 340 Q 515 355 505 365 Q 495 375 505 385" fill="none" stroke="rgba(201,168,76,0.35)" stroke-width="1"/>
+  <!-- Stars/sparkles -->
+  <text x="200" y="180" font-family="serif" font-size="14" fill="rgba(201,168,76,0.4)">✦</text>
+  <text x="580" y="175" font-family="serif" font-size="14" fill="rgba(201,168,76,0.4)">✦</text>
+  <text x="155" y="320" font-family="serif" font-size="10" fill="rgba(201,168,76,0.3)">✦</text>
+  <text x="620" y="300" font-family="serif" font-size="10" fill="rgba(201,168,76,0.3)">✦</text>
+  <!-- Text -->
+  <text x="400" y="430" font-family="Georgia, serif" font-size="14" fill="rgba(201,168,76,0.9)" text-anchor="middle" letter-spacing="5">FESTA PRIVADA</text>
+  <text x="400" y="460" font-family="Georgia, serif" font-size="10" fill="rgba(255,255,255,0.35)" text-anchor="middle" letter-spacing="4">LISANDRA EVENTOS · 2024</text>
+  <text x="400" y="495" font-family="serif" font-size="16" fill="rgba(201,168,76,0.45)" text-anchor="middle">✦  ✦  ✦</text>
+</svg>

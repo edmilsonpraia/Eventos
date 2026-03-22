@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1018"/>
+      <stop offset="100%" style="stop-color:#2a1a24"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(201,168,76,0.35)"/>
+      <stop offset="100%" style="stop-color:rgba(201,168,76,0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <!-- Decorative circles -->
+  <circle cx="400" cy="300" r="220" fill="none" stroke="rgba(201,168,76,0.06)" stroke-width="1"/>
+  <circle cx="400" cy="300" r="160" fill="none" stroke="rgba(201,168,76,0.08)" stroke-width="1"/>
+  <!-- Frame -->
+  <rect x="60" y="60" width="680" height="480" fill="none" stroke="rgba(201,168,76,0.18)" stroke-width="1"/>
+  <rect x="60" y="60" width="680" height="3" fill="url(#glow)"/>
+  <!-- Rings icon -->
+  <circle cx="360" cy="260" r="55" fill="none" stroke="rgba(201,168,76,0.6)" stroke-width="3"/>
+  <circle cx="440" cy="260" r="55" fill="none" stroke="rgba(201,168,76,0.6)" stroke-width="3"/>
+  <circle cx="360" cy="260" r="45" fill="none" stroke="rgba(201,168,76,0.15)" stroke-width="1"/>
+  <circle cx="440" cy="260" r="45" fill="none" stroke="rgba(201,168,76,0.15)" stroke-width="1"/>
+  <!-- Diamond on rings -->
+  <polygon points="400,220 415,240 400,255 385,240" fill="rgba(201,168,76,0.4)" stroke="rgba(201,168,76,0.7)" stroke-width="1"/>
+  <!-- Flowers/petals decoration -->
+  <circle cx="220" cy="150" r="4" fill="rgba(201,168,76,0.3)"/>
+  <circle cx="580" cy="150" r="4" fill="rgba(201,168,76,0.3)"/>
+  <circle cx="220" cy="450" r="4" fill="rgba(201,168,76,0.3)"/>
+  <circle cx="580" cy="450" r="4" fill="rgba(201,168,76,0.3)"/>
+  <!-- Text -->
+  <text x="400" y="370" font-family="Georgia, serif" font-size="14" fill="rgba(201,168,76,0.9)" text-anchor="middle" letter-spacing="5">CASAMENTO PREMIUM</text>
+  <text x="400" y="400" font-family="Georgia, serif" font-size="10" fill="rgba(255,255,255,0.35)" text-anchor="middle" letter-spacing="4">LISANDRA EVENTOS · 2024</text>
+  <text x="400" y="440" font-family="serif" font-size="16" fill="rgba(201,168,76,0.5)" text-anchor="middle">✦  ✦  ✦</text>
+</svg>

@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lisandra Eventos — Experiências Inesquecíveis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== SPLASH / ECRÃ DE ENTRADA ===== -->
+  <div class="splash-screen" id="splashScreen">
+    <div class="splash-particles" id="splashParticles"></div>
+    <div class="splash-content">
+      <div class="splash-logo">
+        <div class="splash-emblem">✦</div>
+        <h1>Lisandra<span>Eventos</span></h1>
+        <p class="splash-tagline">Experiências Inesquecíveis · Luanda, Angola</p>
+      </div>
+      <div class="splash-divider"></div>
+      <div class="splash-lis">
+        <div class="splash-lis-avatar">
+          <div class="splash-lis-ring"></div>
+          <span>✦</span>
+        </div>
+        <div class="splash-lis-text">
+          <strong>Lis IA está pronta para falar consigo</strong>
+          <p>Clique para entrar e ouvir as boas-vindas</p>
+        </div>
+      </div>
+      <button class="splash-btn" id="splashEnterBtn">
+        <span class="splash-btn-icon">▶</span>
+        Entrar no Site
+      </button>
+      <p class="splash-note">🔊 Certifique-se que o som está ligado</p>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-text">Lisandra<span class="gold">Eventos</span></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#consultoria">Consultoria</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#clients">Clientes</a></li>
+        <li><a href="#social">Social</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <!-- Adiciona aqui o teu vídeo: <video class="hero-video" autoplay muted loop playsinline><source src="assets/hero-video.mp4" type="video/mp4" /></video> -->
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Empresa Premium de Eventos · Luanda, Angola</p>
+      <h1 class="hero-title">Transformamos Momentos em<br/><span class="gold">Experiências Inesquecíveis</span></h1>
+      <p class="hero-sub">Elegância, excelência e inovação em cada detalhe do seu evento.</p>
+      <div class="hero-btns">
+        <a href="#services" class="btn btn-gold">Nossos Serviços</a>
+        <button class="btn btn-outline" id="openLisBtn">
+          <span class="lis-icon">✦</span> Falar com Lis IA
+        </button>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ===== STATS ===== -->
+  <section class="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-num" data-target="350">0</span><span class="gold">+</span>
+          <p>Eventos Realizados</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="12">0</span><span class="gold">+</span>
+          <p>Anos de Experiência</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="200">0</span><span class="gold">+</span>
+          <p>Clientes Satisfeitos</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="50">0</span><span class="gold">+</span>
+          <p>Parceiros Premium</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-wrap">
+          <div class="about-img-frame">
+            <img src="assets/about.svg" alt="Lisandra Francisco" class="about-img" />
+            <div class="about-badge">
+              <span class="gold">12</span>
+              <small>anos de<br/>excelência</small>
+            </div>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="section-tag">Sobre Nós</p>
+          <h2 class="section-title">Uma história construída com <span class="gold">paixão e propósito</span></h2>
+          <p>A Lisandra Eventos nasceu do sonho de uma mulher angolana determinada a transformar a indústria de eventos em Angola. Fundada por <strong>Lisandra Francisco</strong>, a empresa cresceu até se tornar referência de excelência e luxo no mercado nacional.</p>
+          <p>Com mais de uma década de experiência, cada evento é tratado como uma obra de arte — meticulosamente planeado, executado com precisão e entregue com emoção.</p>
+          <div class="about-values">
+            <div class="value-item">
+              <div class="value-icon">◈</div>
+              <div>
+                <strong>Missão</strong>
+                <p>Criar experiências únicas que superem as expectativas.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">◈</div>
+              <div>
+                <strong>Visão</strong>
+                <p>Ser a empresa de eventos mais inovadora de África.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">◈</div>
+              <div>
+                <strong>Valores</strong>
+                <p>Excelência · Confiança · Criatividade · Elegância</p>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-gold">Trabalhe Connosco</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">O Que Fazemos</p>
+        <h2 class="section-title">Serviços <span class="gold">Premium</span></h2>
+        <p class="section-sub">Cada serviço foi concebido para oferecer a experiência mais sofisticada e memorável.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🏢</div>
+          <h3>Eventos Corporativos</h3>
+          <p>Conferências, lançamentos de produtos, eventos institucionais e team building com gestão completa.</p>
+          <a href="#contact" class="service-link">Saber Mais →</a>
+        </div>
+        <div class="service-card featured">
+          <div class="service-badge">Mais Popular</div>
+          <div class="service-icon">💍</div>
+          <h3>Casamentos & Festas</h3>
+          <p>Casamentos de luxo, festas privadas e celebrações personalizadas que ficam na memória para sempre.</p>
+          <a href="#contact" class="service-link">Saber Mais →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🎤</div>
+          <h3>Shows & Concursos</h3>
+          <p>Produção completa de shows musicais, concursos de beleza e entretenimento ao vivo.</p>
+          <a href="#contact" class="service-link">Saber Mais →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">👑</div>
+          <h3>Gestão de Imagem</h3>
+          <p>Protocolo empresarial, gestão de imagem pessoal e consultoria de posicionamento para eventos.</p>
+          <a href="#contact" class="service-link">Saber Mais →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✦</div>
+          <h3>Eventos VIP & Premium</h3>
+          <p>Experiências ultra-exclusivas para clientes exigentes que buscam o mais alto padrão.</p>
+          <a href="#contact" class="service-link">Saber Mais →</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🤝</div>
+          <h3>Parcerias Estratégicas</h3>
+          <p>Conexão com fornecedores premium, decoradores e talentos para o seu evento perfeito.</p>
+          <a href="#contact" class="service-link">Saber Mais →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONSULTORIA ===== -->
+  <section class="consultoria section" id="consultoria">
+    <div class="container">
+
+      <div class="section-header">
+        <p class="section-tag">Especialistas em Estratégia</p>
+        <h2 class="section-title">Consultoria de <span class="gold">Eventos</span></h2>
+        <p class="section-sub">Mais do que organizar — ajudamos a planear, estrategizar e transformar a sua visão num evento de impacto real.</p>
+      </div>
+
+      <!-- Intro banner -->
+      <div class="consult-banner">
+        <div class="consult-banner-text">
+          <h3>"O sucesso de um evento começa muito antes do dia.<br/>Começa com a estratégia certa."</h3>
+          <p>— Lisandra Francisco, Fundadora</p>
+        </div>
+        <div class="consult-banner-stat">
+          <span class="gold" style="font-family:var(--font-serif);font-size:3rem;font-weight:700;">98%</span>
+          <p>dos nossos clientes de consultoria renovam contrato</p>
+        </div>
+      </div>
+
+      <!-- Pilares da consultoria -->
+      <div class="consult-pillars">
+        <div class="consult-pillar">
+          <div class="pillar-number">01</div>
+          <div class="pillar-icon">🎯</div>
+          <h4>Diagnóstico & Estratégia</h4>
+          <p>Analisamos os seus objectivos, público-alvo e contexto para definir a estratégia ideal para o evento. Sem suposições — dados e experiência.</p>
+        </div>
+        <div class="consult-pillar">
+          <div class="pillar-number">02</div>
+          <div class="pillar-icon">📐</div>
+          <h4>Planeamento Detalhado</h4>
+          <p>Criamos um plano de acção completo: cronograma, orçamento, fornecedores, espaço, logística e protocolos com rigor profissional.</p>
+        </div>
+        <div class="consult-pillar">
+          <div class="pillar-number">03</div>
+          <div class="pillar-icon">⚙️</div>
+          <h4>Gestão & Execução</h4>
+          <p>Coordenamos toda a equipa e fornecedores no terreno. Estamos presentes em cada detalhe para garantir execução perfeita.</p>
+        </div>
+        <div class="consult-pillar">
+          <div class="pillar-number">04</div>
+          <div class="pillar-icon">📊</div>
+          <h4>Análise de Resultados</h4>
+          <p>Após o evento, entregamos relatório completo: impacto, feedback dos convidados, ROI e recomendações para os próximos eventos.</p>
+        </div>
+      </div>
+
+      <!-- Serviços de consultoria em detalhe -->
+      <div class="consult-services-grid">
+        <div class="consult-service-card">
+          <div class="cs-icon">👔</div>
+          <h4>Consultoria Corporativa</h4>
+          <ul>
+            <li>Estratégia de eventos institucionais</li>
+            <li>Gestão de imagem corporativa</li>
+            <li>Protocolo empresarial</li>
+            <li>Comunicação e relações públicas</li>
+            <li>Relatório de impacto e ROI</li>
+          </ul>
+          <a href="#contact" class="btn btn-gold" style="margin-top:auto;">Saber Mais</a>
+        </div>
+
+        <div class="consult-service-card featured-card">
+          <div class="consult-card-badge">Mais Procurado</div>
+          <div class="cs-icon">✦</div>
+          <h4>Consultoria 360°</h4>
+          <ul>
+            <li>Acompanhamento completo do evento</li>
+            <li>Equipa dedicada exclusivamente</li>
+            <li>Acesso prioritário 24/7</li>
+            <li>Decoração e produção incluídas</li>
+            <li>Relatório executivo completo</li>
+            <li>Garantia de satisfação</li>
+          </ul>
+          <a href="#contact" class="btn btn-gold" style="margin-top:auto;">Solicitar Proposta</a>
+        </div>
+
+        <div class="consult-service-card">
+          <div class="cs-icon">💍</div>
+          <h4>Consultoria de Cerimónias</h4>
+          <ul>
+            <li>Consultoria de casamentos</li>
+            <li>Planeamento de festas privadas</li>
+            <li>Estilo e conceito visual</li>
+            <li>Seleção de fornecedores premium</li>
+            <li>Cerimonial e protocolo</li>
+          </ul>
+          <a href="#contact" class="btn btn-gold" style="margin-top:auto;">Saber Mais</a>
+        </div>
+      </div>
+
+      <!-- Processo / como funciona -->
+      <div class="consult-process">
+        <div class="section-header" style="margin-bottom:48px;">
+          <p class="section-tag">Como Trabalhamos</p>
+          <h2 class="section-title">Processo <span class="gold">Simples & Eficaz</span></h2>
+        </div>
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-circle">1</div>
+            <div class="step-connector"></div>
+            <h5>Contacto Inicial</h5>
+            <p>Fale connosco ou com a Lis IA. Explicamos como podemos ajudar no seu caso específico.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-circle">2</div>
+            <div class="step-connector"></div>
+            <h5>Reunião de Diagnóstico</h5>
+            <p>Reunião gratuita para entender os seus objectivos, expectativas e orçamento disponível.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-circle">3</div>
+            <div class="step-connector"></div>
+            <h5>Proposta Personalizada</h5>
+            <p>Entregamos proposta detalhada com plano de acção, equipa e investimento necessário.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-circle">4</div>
+            <div class="step-connector"></div>
+            <h5>Execução & Acompanhamento</h5>
+            <p>Implementamos tudo com dedicação total. Estamos consigo em cada fase do processo.</p>
+          </div>
+          <div class="process-step">
+            <div class="step-circle">5</div>
+            <h5>Resultado & Relatório</h5>
+            <p>Evento realizado com sucesso e entrega de relatório completo de impacto e resultados.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA consultoria -->
+      <div class="consult-cta">
+        <h3>Pronto para levar o seu evento ao próximo nível?</h3>
+        <p>A nossa equipa de consultores está disponível para uma primeira reunião <strong>gratuita e sem compromisso</strong>.</p>
+        <div class="consult-cta-btns">
+          <a href="#contact" class="btn btn-gold">Agendar Reunião Gratuita</a>
+          <button class="btn btn-outline" id="consultLisBtn">
+            <span class="lis-icon">✦</span> Perguntar à Lis IA
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== PORTFÓLIO ===== -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Nosso Trabalho</p>
+        <h2 class="section-title">Portfólio de <span class="gold">Eventos</span></h2>
+        <p class="section-sub">Momentos reais que transformámos em memórias eternas.</p>
+      </div>
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="corporate">Corporativo</button>
+        <button class="filter-btn" data-filter="wedding">Casamentos</button>
+        <button class="filter-btn" data-filter="show">Shows</button>
+        <button class="filter-btn" data-filter="vip">VIP</button>
+      </div>
+      <div class="portfolio-grid" id="portfolioGrid">
+        <div class="portfolio-item" data-category="corporate">
+          <div class="portfolio-img-wrap">
+            <img src="assets/p1.svg" alt="Evento Corporativo" />
+            <div class="portfolio-overlay">
+              <h4>Conferência Anual</h4>
+              <p>Evento Corporativo · 2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item large" data-category="wedding">
+          <div class="portfolio-img-wrap">
+            <img src="assets/p2.svg" alt="Casamento de Luxo" />
+            <div class="portfolio-overlay">
+              <h4>Casamento Premium</h4>
+              <p>Casamento · 2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="show">
+          <div class="portfolio-img-wrap">
+            <img src="assets/p3.svg" alt="Show Musical" />
+            <div class="portfolio-overlay">
+              <h4>Show ao Vivo</h4>
+              <p>Entretenimento · 2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="vip">
+          <div class="portfolio-img-wrap">
+            <img src="assets/p4.svg" alt="Evento VIP" />
+            <div class="portfolio-overlay">
+              <h4>Gala Privada</h4>
+              <p>VIP · 2024</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item large" data-category="corporate">
+          <div class="portfolio-img-wrap">
+            <img src="assets/p5.svg" alt="Lançamento de Produto" />
+            <div class="portfolio-overlay">
+              <h4>Lançamento de Produto</h4>
+              <p>Corporativo · 2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item" data-category="wedding">
+          <div class="portfolio-img-wrap">
+            <img src="assets/p6.svg" alt="Festa Privada" />
+            <div class="portfolio-overlay">
+              <h4>Festa Privada</h4>
+              <p>Celebração · 2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CLIENTES ===== -->
+  <section class="clients section" id="clients">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Quem Confia em Nós</p>
+        <h2 class="section-title">Clientes & <span class="gold">Parcerias</span></h2>
+      </div>
+      <div class="logos-track-wrap">
+        <div class="logos-track">
+          <div class="client-logo">SONANGOL</div>
+          <div class="client-logo">UNITEL</div>
+          <div class="client-logo">ANGOLA CABLES</div>
+          <div class="client-logo">BAI BANCO</div>
+          <div class="client-logo">ENDE</div>
+          <div class="client-logo">ANPG</div>
+          <div class="client-logo">SONANGOL</div>
+          <div class="client-logo">UNITEL</div>
+          <div class="client-logo">ANGOLA CABLES</div>
+          <div class="client-logo">BAI BANCO</div>
+          <div class="client-logo">ENDE</div>
+          <div class="client-logo">ANPG</div>
+        </div>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"A Lisandra Eventos transformou o nosso evento corporativo numa experiência absolutamente memorável. Profissionalismo sem igual."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MF</div>
+            <div>
+              <strong>Manuel Fernandes</strong>
+              <small>Director Geral · Sonangol</small>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card featured">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"O meu casamento foi perfeito do início ao fim. Cada detalhe foi pensado com tanta elegância. Lisandra é verdadeiramente uma artista dos eventos."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AS</div>
+            <div>
+              <strong>Ana Santos</strong>
+              <small>Cliente — Casamento Premium 2024</small>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">★★★★★</div>
+          <p>"Parceira de confiança há 5 anos. Sempre superam as expectativas. Recomendo sem hesitação a qualquer empresa séria."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JC</div>
+            <div>
+              <strong>José Carvalho</strong>
+              <small>CEO · Unitel</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REDES SOCIAIS ===== -->
+  <section class="social-section section" id="social">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Siga-nos</p>
+        <h2 class="section-title">Nas Redes <span class="gold">Sociais</span></h2>
+        <p class="section-sub">Acompanhe os nossos eventos e novidades no Instagram e Facebook.</p>
+      </div>
+
+      <div class="social-platforms">
+
+        <!-- INSTAGRAM -->
+        <div class="social-platform-block">
+          <div class="social-platform-header">
+            <div class="social-platform-icon instagram-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </div>
+            <div>
+              <h3>@lisandra.eventos</h3>
+              <p class="platform-stats">183K Seguidores · 114 Publicações</p>
+            </div>
+            <a href="https://www.instagram.com/lisandra.eventos/" target="_blank" rel="noopener" class="btn-follow instagram-follow">Seguir</a>
+          </div>
+
+          <div class="instagram-embed-grid">
+            <!-- Publicação embebida oficial do Instagram -->
+            <div class="insta-embed-wrap">
+              <blockquote
+                class="instagram-media"
+                data-instgrm-permalink="https://www.instagram.com/reel/DEDkCuiO_P6/"
+                data-instgrm-version="14"
+                style="background:#1a1a1a; border:1px solid rgba(201,168,76,0.2); border-radius:12px; max-width:100%; min-width:280px; padding:0; width:100%;">
+                <div style="padding:16px;">
+                  <a href="https://www.instagram.com/reel/DEDkCuiO_P6/" target="_blank" rel="noopener"
+                     style="display:flex; align-items:center; gap:10px; color:#C9A84C; text-decoration:none; font-family:Poppins,sans-serif; font-size:0.85rem;">
+                    <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#C9A84C,#7A5C20);display:flex;align-items:center;justify-content:center;font-size:1rem;color:#000;">✦</div>
+                    <div>
+                      <strong style="display:block;color:#fff;">lisandra.eventos</strong>
+                      <span style="color:rgba(255,255,255,0.5);font-size:0.75rem;">Ver no Instagram</span>
+                    </div>
+                  </a>
+                  <p style="color:rgba(255,255,255,0.7);font-size:0.85rem;margin:12px 0 0;line-height:1.6;">
+                    "Cada detalhe importa — nós da Lisandra Eventos cuidamos de tudo para que o seu evento seja inesquecível." ✦
+                  </p>
+                </div>
+              </blockquote>
+            </div>
+
+            <!-- Cards visuais de posts do Instagram -->
+            <a href="https://www.instagram.com/lisandra.eventos/" target="_blank" rel="noopener" class="insta-card">
+              <div class="insta-card-inner">
+                <div class="insta-placeholder">
+                  <span class="insta-icon">📸</span>
+                  <p>Ver Feed</p>
+                </div>
+                <div class="insta-card-overlay">
+                  <span>Ver no Instagram →</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/lisandra.eventos/" target="_blank" rel="noopener" class="insta-card">
+              <div class="insta-card-inner">
+                <div class="insta-placeholder insta-reel">
+                  <span class="insta-icon">🎬</span>
+                  <p>Reels</p>
+                </div>
+                <div class="insta-card-overlay">
+                  <span>Ver no Instagram →</span>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="social-cta">
+            <a href="https://www.instagram.com/lisandra.eventos/" target="_blank" rel="noopener" class="btn btn-outline">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" style="color:#C9A84C">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+              Ver todos os posts no Instagram
+            </a>
+          </div>
+        </div>
+
+        <!-- FACEBOOK -->
+        <div class="social-platform-block facebook-block">
+          <div class="social-platform-header">
+            <div class="social-platform-icon facebook-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </div>
+            <div>
+              <h3>Lisandra Eventos</h3>
+              <p class="platform-stats">Facebook · Página Oficial</p>
+            </div>
+            <a href="https://www.facebook.com/search/pages/?q=lisandra%20eventos%20angola" target="_blank" rel="noopener" class="btn-follow facebook-follow">Seguir</a>
+          </div>
+
+          <div class="facebook-embed-wrap">
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flisandraeventos&tabs=timeline&width=500&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+              width="100%"
+              height="400"
+              style="border:none;overflow:hidden;border-radius:12px;"
+              scrolling="no"
+              frameborder="0"
+              allowfullscreen="true"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              title="Lisandra Eventos Facebook"
+              loading="lazy">
+            </iframe>
+            <!-- Fallback quando o embed do Facebook não carrega -->
+            <div class="fb-fallback">
+              <div class="fb-fallback-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="40" height="40">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+              </div>
+              <h4>Lisandra Eventos no Facebook</h4>
+              <p>Siga-nos para ver os nossos eventos, novidades e inspiração.</p>
+              <a href="https://www.facebook.com/search/pages/?q=lisandra%20eventos%20angola" target="_blank" rel="noopener" class="btn btn-gold" style="margin-top:16px;">
+                Visitar Página Facebook
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACTO ===== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Fale Connosco</p>
+        <h2 class="section-title">Vamos Criar Algo <span class="gold">Incrível</span></h2>
+        <p class="section-sub">Diga-nos sobre o seu evento e entraremos em contacto em menos de 24 horas.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <strong>Localização</strong>
+              <p>Luanda, Angola<br/>Talatona, Sul</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://wa.me/244900000000" target="_blank">+244 900 000 000</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:geral@lisandraeventos.ao">geral@lisandraeventos.ao</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">⏰</div>
+            <div>
+              <strong>Horário</strong>
+              <p>Segunda–Sábado: 08h–20h</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://www.instagram.com/lisandra.eventos/" target="_blank" rel="noopener" class="social-link">Instagram</a>
+            <a href="https://www.facebook.com/search/pages/?q=lisandra%20eventos%20angola" target="_blank" rel="noopener" class="social-link">Facebook</a>
+            <a href="#social" class="social-link">Redes Sociais</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Nome Completo</label>
+              <input type="text" placeholder="O seu nome" required />
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="email@exemplo.com" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Telefone / WhatsApp</label>
+              <input type="tel" placeholder="+244 9XX XXX XXX" />
+            </div>
+            <div class="form-group">
+              <label>Tipo de Evento</label>
+              <select>
+                <option value="">Selecione...</option>
+                <option>Evento Corporativo</option>
+                <option>Casamento</option>
+                <option>Show / Concurso</option>
+                <option>Evento VIP</option>
+                <option>Outro</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Mensagem</label>
+            <textarea placeholder="Descreva o seu evento, data, número de convidados..." rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-full">Enviar Pedido</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-text">Lisandra<span class="gold">Eventos</span></span>
+          </div>
+          <p>Transformamos sonhos em experiências reais. Premium · Elegante · Inesquecível.</p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/lisandra.eventos/" target="_blank" rel="noopener" class="social-link">IG</a>
+            <a href="https://www.facebook.com/search/pages/?q=lisandra%20eventos%20angola" target="_blank" rel="noopener" class="social-link">FB</a>
+            <a href="#social" class="social-link">Redes</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre Nós</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Serviços</h4>
+          <ul>
+            <li><a href="#services">Eventos Corporativos</a></li>
+            <li><a href="#services">Casamentos</a></li>
+            <li><a href="#consultoria">Consultoria</a></li>
+            <li><a href="#services">Eventos VIP</a></li>
+            <li><a href="#services">Gestão de Imagem</a></li>
+          </ul>
+        </div>
+        <div class="footer-lis">
+          <h4>Lis IA</h4>
+          <p>O nosso assistente virtual inteligente está sempre disponível para responder às suas dúvidas.</p>
+          <button class="btn btn-outline-small" id="openLisFooter">Falar com Lis IA ✦</button>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Lisandra Eventos. Todos os direitos reservados.</p>
+        <p>Desenvolvido com <span class="gold">✦</span> em Luanda, Angola</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== LIS IA WIDGET ===== -->
+  <div class="lis-fab" id="lisFab">
+    <div class="lis-fab-pulse"></div>
+    <div class="lis-fab-icon">✦</div>
+    <div class="lis-fab-label">Lis IA</div>
+  </div>
+
+  <!-- ===== LIS IA CHAT MODAL ===== -->
+  <div class="lis-modal" id="lisModal">
+    <div class="lis-modal-inner">
+      <div class="lis-header">
+        <div class="lis-avatar">
+          <div class="lis-avatar-ring"></div>
+          <div class="lis-avatar-icon">✦</div>
+        </div>
+        <div class="lis-header-info">
+          <h3>Lis IA</h3>
+          <p class="lis-status"><span class="status-dot"></span>Online · Assistente Virtual</p>
+        </div>
+        <button class="lis-close" id="lisClose">✕</button>
+      </div>
+
+      <div class="lis-messages" id="lisMessages">
+        <div class="lis-msg bot">
+          <div class="msg-avatar">✦</div>
+          <div class="msg-bubble">
+            <p>Olá! Sou a <strong>Lis IA</strong>, assistente virtual da Lisandra Eventos. 👋</p>
+            <p>Estou aqui para ajudar com informações sobre os nossos serviços, orçamentos e agendamentos.</p>
+            <p>Como posso ajudar hoje?</p>
+          </div>
+        </div>
+        <div class="lis-quick-replies">
+          <button class="quick-reply" data-msg="Quero fazer um orçamento">📋 Pedir Orçamento</button>
+          <button class="quick-reply" data-msg="Que serviços oferecem?">🎉 Ver Serviços</button>
+          <button class="quick-reply" data-msg="Quero organizar um casamento">💍 Casamento</button>
+          <button class="quick-reply" data-msg="Eventos corporativos">🏢 Corporativo</button>
+        </div>
+      </div>
+
+      <div class="lis-input-area">
+        <div class="lis-voice-indicator" id="voiceIndicator">
+          <div class="voice-bars">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <p>A ouvir...</p>
+        </div>
+        <div class="lis-input-row">
+          <button class="lis-voice-btn" id="voiceBtn" title="Falar com Lis IA">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path d="M12 1a4 4 0 0 1 4 4v6a4 4 0 0 1-8 0V5a4 4 0 0 1 4-4zm-1 15.93A8.001 8.001 0 0 1 4 11H2a10 10 0 0 0 9 9.95V23h2v-2.05A10 10 0 0 0 22 11h-2a8 8 0 0 1-7 7.93v-1z"/>
+            </svg>
+          </button>
+          <input type="text" class="lis-text-input" id="lisInput" placeholder="Escreva a sua mensagem..." />
+          <button class="lis-send-btn" id="lisSend">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path d="M2 21l21-9L2 3v7l15 2-15 2v7z"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Instagram official embed script -->
+  <script async src="https://www.instagram.com/embed.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
